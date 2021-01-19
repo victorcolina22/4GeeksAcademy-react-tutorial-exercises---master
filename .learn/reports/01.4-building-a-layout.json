@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 1,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mThe component should return the exact HTML\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatchInlineSnapshot\u001b[2m(\u001b[22m\u001b[32msnapshot\u001b[39m\u001b[2m)\u001b[22m\n\n    Snapshot name: `The component should return the exact HTML 1`\n\n    \u001b[32m- Snapshot\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[33m@@ -1,7 +1,7 @@\u001b[39m\n    \u001b[2m  <div\u001b[22m\n    \u001b[32m-   className=\"card m-5\"\u001b[39m\n    \u001b[31m+   class=\"card m-5\"\u001b[39m\n    \u001b[2m  >\u001b[22m\n    \u001b[2m    <img\u001b[22m\n    \u001b[2m      alt=\"Card image cap\"\u001b[22m\n    \u001b[2m      className=\"card-img-top\"\u001b[22m\n    \u001b[2m      src=\"https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/\"\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 | \u001b[39m        \u001b[33m.\u001b[39mtoJSON()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 | \u001b[39m        console\u001b[33m.\u001b[39mlog(tree)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 17 | \u001b[39m    expect(tree)\u001b[33m.\u001b[39mtoMatchInlineSnapshot(\u001b[32m`\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                 \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 | \u001b[39m\u001b[32m<div\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 | \u001b[39m\u001b[32m  className=\"card m-5\"\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 20 | \u001b[39m\u001b[32m>\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/01.4-building-a-layout/tests.js\u001b[39m\u001b[0m\u001b[2m:17:18)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "ReactDOM.render needs to be called once",
+      "status": "passed"
+    },
+    {
+      "title": "The component should return the exact HTML",
+      "status": "failed"
+    }
+  ]
+}
